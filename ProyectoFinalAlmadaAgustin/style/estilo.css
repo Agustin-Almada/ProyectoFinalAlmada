@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(19, 19, 19);
+}
+
+.titulo {
+  margin: 15px;
+  color: rgb(253, 40, 2);
+  font-size: xx-large;
+  text-align: center;
+  -webkit-animation: latir 1.5s;
+          animation: latir 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+h2 {
+  margin: 50px;
+  text-align: center;
+  color: rgba(243, 239, 239, 0.911);
+  font-size: xx-large;
+  -webkit-animation: salto 1.5s;
+          animation: salto 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+h4 {
+  direction: ltr;
+  text-align: left;
+  color: rgba(243, 239, 239, 0.911);
+}
+
+@-webkit-keyframes salto {
+  0% {
+    transform: translate(1px, -1px);
+  }
+  25% {
+    transform: translate(1px, -10px);
+  }
+  50% {
+    transform: translate(1px, -20px);
+  }
+  75% {
+    transform: translate(1px, -10px);
+  }
+  100% {
+    transform: translate(1px, -1px);
+  }
+}
+
+@keyframes salto {
+  0% {
+    transform: translate(1px, -1px);
+  }
+  25% {
+    transform: translate(1px, -10px);
+  }
+  50% {
+    transform: translate(1px, -20px);
+  }
+  75% {
+    transform: translate(1px, -10px);
+  }
+  100% {
+    transform: translate(1px, -1px);
+  }
+}
+@-webkit-keyframes latir {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes latir {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.navbar {
+  background-color: rgb(19, 19, 19);
+}
+
+.card {
+  background-color: rgba(243, 239, 239, 0.911);
+}
+
+.cardshop {
+  background-color: rgba(255, 255, 255, 0.94);
+  border-radius: 1%;
+}
+
+.titulocompra {
+  text-align: center;
+  color: rgba(243, 239, 239, 0.911);
+  margin: 50px;
+}
+
+.carrito {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: xx-large;
+  text-align: left;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: medium;
+  direction: ltr;
+}
+
+.input-group {
+  direction: ltr;
+  text-align: left;
+}
+
+label {
+  direction: ltr;
+  text-align: left;
+  color: rgba(243, 239, 239, 0.911);
+}
+
+.singin {
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.w-80 {
+  margin: 15px;
+}/*# sourceMappingURL=estilo.css.map */
